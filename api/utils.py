@@ -1,2 +1,2 @@
 def hello(name):
-    return f"Hello, {name}"
+    return f"HELLO, {name}"
