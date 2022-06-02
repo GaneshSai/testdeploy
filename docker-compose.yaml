@@ -2,9 +2,7 @@ version: "3"
 
 services:
   api:
-    deploy:
-      replicas: 1
-    build: api
+    image: ganeshsai1813/testdeploy_action:latest
     command: python main.py
     ports:
-      - "9999:9999"
+      - "8880:9999"
